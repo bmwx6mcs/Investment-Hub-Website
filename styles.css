@@ -1,0 +1,165 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #fff;
+  line-height: 1.6;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #35424a, #2c3e50);
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1em;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f4f4f4;
+}
+
+main {
+  margin-top: 30px;
+}
+
+/* Info Sections */
+.info-section {
+  background: rgba(255, 255, 255, 0.9);
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.info-section h2 {
+  color: #35424a;
+  margin-bottom: 15px;
+  font-size: 2em;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+.info-section article p {
+  margin-bottom: 15px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.info-section article ul {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.info-section article ul li {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Figure and Images */
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+figure figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  color: #555;
+}
+
+.video-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.video-container iframe {
+  max-width: 100%;
+  border: none;
+}
+
+/* Two-Column Layout */
+.two-column-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+}
+
+.column h2 {
+  color: #35424a;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+
+/* Footer */
+footer {
+  background: #35424a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+footer p {
+  margin: 5px 0;
+}
